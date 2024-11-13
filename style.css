@@ -6,11 +6,12 @@
 
 body{
     font-family: 'Gabarito', sans-serif;
+
 }
 
 .navbar{
-    padding-left: 150px;
-    padding-right:190px;
+    padding-left: 120px;
+    padding-right:100px;
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -30,14 +31,11 @@ body{
 
 .navbar_s2{
     display: flex; 
-    align-items: center;
+    justify-content: center;
     font-weight: bold;
     font-size: medium;
-    gap: 40px;
-    flex-basis: 1;
-    padding-left: 110px;
-    
-    
+    align-items: center;
+       
    
 }
 
@@ -220,6 +218,7 @@ body{
     height: 20px;
     margin-top: 2px;
     padding-bottom: 3px;
+    gap: 30px;
 }
 .gateway{
     padding-left: 160px;
@@ -265,7 +264,11 @@ body{
 }
 
 .gateway_s1_img{
+    margin-left: 10px;
     object-fit: cover;
+    width: 1000px;
+    height: fit-content;
+    margin-right: 30px;
     
     
 }
@@ -278,6 +281,7 @@ body{
     width: 480px;
     height: 200px;
     padding-top: 40px;
+    margin-bottom: 20px;
     
 }
 
@@ -299,14 +303,20 @@ body{
 }
 .gateway_s2_h1{
     font-weight: bolder;
-    font-size: 55px;
+    font-size: 50px;
     margin-bottom: 8px;
+}
+
+.gateway_s2_h2{
+    padding-right: 5px;
+    font-size: 19px;
+    text-align: left;
 }
 
 .gateway_s2_link{
     color: black;
     text-decoration: none;
-    font-size: medium;
+    font-size: 16px;
     border: solid transparent 2px;
     background-color: #DCD0EB;
     padding-right: 15px;
@@ -347,45 +357,100 @@ body{
     opacity: 0.5;
 
 }
-.card_s1{
-    padding-left: 150px;
-    padding-right:190px;
-}
 
-.card{
-    position: relative;
-    width: 240px;
-    border-radius: 10px;
+.card_s1{
     background-color: white;
     display: flex;
-    justify-content:space-around;
-    gap: 15px;
-    flex-basis: 1;
-    flex-grow: 25%;
-}
+    width: fit-content;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 100px;
+
     
+    
+} 
+
+.card{
+   width: 900px;
+   display: flex;
+
+}
+.card{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    overflow: scroll;
+}
 
 .card img{
-    border-radius: 7px;
+    object-fit: cover;
+    width: 260px;
+    height: 280px;
+    
+}
+
+.card_one img{
+    
+    background-color: white;
+    border-radius: 15px;
+
+    
+}
+
+.card_two img{
+    
+    background-color: white;
+    border-radius: 15px;
+}
+.card_three img{
+   
+    background-color: white;
+    border-radius: 15px;
+    
+}
+
+.card_four img{
+    
+    background-color: white;
+    border-radius: 15px;
+    
+}
+
+.card_five img{
+    background-color: white;
+    border-radius: 15px;
 }
 
 .card_s1_text1{
     font-weight: lighter;
     font-size: xx-large;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
     padding-left: 0;
 }
 .card_s1_text2{
-    padding: 5px;
+    
     padding-left: 0;
     font-weight: lighter;
     font-size: 16px;
     margin-bottom: 3px;
+    padding-bottom: 10px;
 }
 
-.arrow{
-    background-color: white;
-    border-radius: 50px;
-    height: 30px;
-    width: 50px;
+.card div{
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:5px;
+    flex: none;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card::-webkit-scrollbar{
+    display: none;
 }
