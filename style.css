@@ -223,6 +223,10 @@ body{
 .gateway{
     padding-left: 160px;
     padding-right:180px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .heading_s2_s1{
@@ -264,11 +268,8 @@ body{
 }
 
 .gateway_s1_img{
-    margin-left: 10px;
-    object-fit: cover;
-    width: 1000px;
-    height: fit-content;
-    margin-right: 30px;
+    width: 100%;
+    height: auto;
     
     
 }
@@ -339,118 +340,11 @@ body{
     color: black;
 }
 
-.card:hover {
-    transform: translateY(-5px);
-    
-}
-.card_one:hover{
-    opacity: 0.5;
-}
-.card_two:hover{
-    opacity: 0.5;
 
-}
-.card_three:hover{
-    opacity: 0.5;
-}
-.card_four:hover{
-    opacity: 0.5;
 
-}
 
-.card_s1{
-    background-color: white;
-    display: flex;
-    width: fit-content;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-left: 100px;
 
-    
-    
-} 
 
-.card{
-   width: 900px;
-   display: flex;
 
-}
-.card{
-    width: 80%;
-    height: 200px;
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-    overflow: scroll;
-}
 
-.card img{
-    object-fit: cover;
-    width: 260px;
-    height: 280px;
-    
-}
 
-.card_one img{
-    
-    background-color: white;
-    border-radius: 15px;
-
-    
-}
-
-.card_two img{
-    
-    background-color: white;
-    border-radius: 15px;
-}
-.card_three img{
-   
-    background-color: white;
-    border-radius: 15px;
-    
-}
-
-.card_four img{
-    
-    background-color: white;
-    border-radius: 15px;
-    
-}
-
-.card_five img{
-    background-color: white;
-    border-radius: 15px;
-}
-
-.card_s1_text1{
-    font-weight: lighter;
-    font-size: xx-large;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    padding-left: 0;
-}
-.card_s1_text2{
-    
-    padding-left: 0;
-    font-weight: lighter;
-    font-size: 16px;
-    margin-bottom: 3px;
-    padding-bottom: 10px;
-}
-
-.card div{
-    
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap:5px;
-    flex: none;
-}
-
-.card img{
-    width: 100%;
-}
-
-.card::-webkit-scrollbar{
-    display: none;
-}
